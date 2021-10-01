@@ -1,0 +1,586 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+li {
+    list-style: none;
+}
+:root {
+	--title-color: #212121;
+	--text-color: #757575; 
+	--acent-color:#2196F3;
+}
+
+html {
+
+    font-family: Roboto;
+    color: var(--text-color) ;
+    font-style: normal ;
+}
+
+.logo {
+
+    
+    width: 149px;
+    height: 28px;
+    left: 168px;
+    top: 16px;
+    
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 1,16;
+    letter-spacing: 0.03em;
+    
+    color: var(--title-color);
+
+
+}
+
+.accent  {
+    
+    color: var(--acent-color);
+
+}
+
+.main_nav{
+    display: flex;
+    height: 60px;
+    justify-content: center;
+    padding: 0 50px;
+    outline: 1px solid aqua;
+    align-items: center;
+ 
+ }
+ .main_nav__contact{
+ 
+ display: flex;
+ height: 100%;
+ 
+ 
+ }
+ 
+ .main_nav__item{
+ 
+     outline: 1px solid tomato;
+     width: 30px;
+     
+ }
+ 
+ .main_nav__item:not(:last-child){
+ 
+ margin-right: 10px;
+ 
+ 
+ }
+ 
+ .nav_svg {
+ 
+ fill: var(--acent-color);
+ transition: 300ms cubic-bezier(.84,.39,.31,1.24)
+ 
+ }
+ 
+ .main_nav__item:hover .nav_svg,
+ .main_nav__item:focus .nav_svg{
+ 
+ fill: var(--acent-color);
+ 
+ 
+ 
+ }
+ .hero {
+     display: block;
+    height: 400px;
+    outline: 1px solid black;
+    padding-top: 158px;
+    background-image:linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url("https://itechua.com/wp-content/uploads/2019/06/Epic-Games-Store-4.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+ }
+
+.texthero {
+    display: block;
+    margin: 0 auto;
+    max-width: 360px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: tomato;
+    /* color: #FFFFFF; */
+}
+
+.main-content__title{
+    position: relative;
+    width: 370px;
+    height: 30px;
+    margin: 0 auto;
+	transform: translateY(33px);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 1.5px;
+    /* identical to box height, or 150% */
+    
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+
+}  
+
+.main-content__title::after{
+    position: absolute;
+   content: "";
+   width: 100px;
+	height: 2px;
+	background-color: var(--acent-color);
+	border-radius: 2px;
+    top: 20px;
+    left: 135px;
+
+}
+
+
+.forpadding{
+
+padding-top: 180px ;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+align-self: center;
+}
+
+.terra{
+padding-top: 100px;
+margin-left: 525px;
+}
+.shadow{
+    width: 450px;
+    height: 404px;
+    left: 17px;
+    top: 552px;
+    
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+
+}
+.img1{
+
+width: 450px;
+height: 294px;
+left: 17px;
+top: 552px;
+
+background: url("https://3ost.ru/uploads/posts/2020-11/1604952832_terraria-soundtrack-volume-4.jpg")
+}
+
+.title1 {
+
+    width: 402px;
+    height: 70px;
+    left: 41px;
+    top: 866px;
+
+
+}
+
+.Terraria{
+
+color: #2196F3;
+
+}
+
+.text2{
+
+color: black;
+
+}
+
+.mine{
+    padding-top: 100px;
+    margin-left: 525px;
+    }
+    .shadow1{
+        width: 450px;
+        height: 404px;
+        left: 17px;
+        top: 552px;
+        
+        background: #FFFFFF;
+        border: 1px solid #EEEEEE;
+        box-sizing: border-box;
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+    
+    }
+    .img2{
+    
+    width: 450px;
+    height: 294px;
+    left: 17px;
+    top: 552px;
+    
+    background: url("https://tcf.admeen.org/category/3500/3061/400x400/minecraft.jpg")
+
+    }
+    
+    .title2 {
+    
+        width: 402px;
+        height: 70px;
+        left: 41px;
+        top: 866px;
+    
+    
+    }
+    
+    .Minecraft{
+    
+    color: #2196F3;
+    
+    }
+    
+    .text3{
+    
+    color: black;
+    
+    }
+
+
+    .alchimik{
+        padding-top: 100px;
+        margin-left: 525px;
+        }
+        .shadow2{
+            width: 450px;
+            height: 404px;
+            left: 17px;
+            top: 552px;
+            
+            background: #FFFFFF;
+            border: 1px solid #EEEEEE;
+            box-sizing: border-box;
+            box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+        
+        }
+        .img3{
+        
+        width: 450px;
+        height: 294px;
+        left: 17px;
+        top: 552px;
+        
+        background: url("https://pbs.twimg.com/profile_images/1349045842511097859/ZPcG3QSs.png")
+        }
+        
+        .potion{
+        
+            width: 402px;
+            height: 70px;
+            left: 41px;
+            top: 866px;
+        
+        
+        }
+        
+        .title3{
+        
+        color: #2196F3;
+        
+        }
+        
+        .text4{
+        
+        color: black;
+        
+        }
+
+
+        
+    .HOI4{
+        padding-top: 100px;
+        margin-left: 525px;
+        }
+        .shadow3{
+            width: 450px;
+            height: 404px;
+            left: 17px;
+            top: 552px;
+            
+            background: #FFFFFF;
+            border: 1px solid #EEEEEE;
+            box-sizing: border-box;
+            box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+        
+        }
+        .img4{
+        
+        width: 450px;
+        height: 294px;
+        left: 17px;
+        top: 552px;
+        
+        background: url("https://cdn.igromania.ru/mnt/articles/b/d/6/a/d/7/25610/html/img/ffaed07fa8304c49.jpg")
+        }
+        
+        .Heart{
+        
+            width: 402px;
+            height: 70px;
+            left: 41px;
+            top: 866px;
+        
+        
+        }
+        
+        .title4{
+        
+        color: #2196F3;
+        
+        }
+        
+        .text5{
+        
+        color: black;
+        
+        }
+
+        .ADOLFUS{
+            padding-top: 100px;
+            margin-left: 525px;
+            }
+            .shadow4{
+                width: 450px;
+                height: 404px;
+                left: 17px;
+                top: 552px;
+                
+                background: #FFFFFF;
+                border: 1px solid #EEEEEE;
+                box-sizing: border-box;
+                box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+            
+            }
+            .img5{
+            
+            width: 450px;
+            height: 294px;
+            left: 17px;
+            top: 552px;
+            
+            background: url("https://i.pinimg.com/originals/91/83/27/918327bfa731b9f8322ae39b1cd18b40.jpg")
+            }
+            
+            .AMONGUS{
+            
+                width: 402px;
+                height: 70px;
+                left: 41px;
+                top: 866px;
+            
+            
+            }
+            
+            .title5{
+            
+            color: #2196F3;
+            
+            }
+            
+            .text6{
+            
+            color: black;
+            
+            }
+        
+        
+   .forms{
+    position: relative;
+    width: 370px;
+    height: 30px;
+    margin: 0 auto;
+	transform: translateY(33px);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 1.5px;
+    /* identical to box height, or 150% */
+    
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+
+   } 
+
+   .forms::after{
+    position: absolute;
+    content: "";
+    width: 100px;
+     height: 2px;
+     background-color: var(--acent-color);
+     border-radius: 2px;
+     top: 20px;
+     left: 135px;
+ 
+
+   }
+
+   .label{
+  
+    color: blue;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: 0.01em;
+    color: #757575;
+   }
+
+.form{
+    
+    width: 400px;
+   margin: 10px auto;
+} 
+
+.input{
+    color: blue;
+    width: 370px;
+    height: 40px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+}
+.input:hover,
+.input:focus,
+.input:active{
+    outline: none;
+    background-color: blue;
+}
+
+.textarea{
+
+    width: 370px;
+    height: 120px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    resize: none;
+}
+textarea:hover,
+textarea:focus,
+textarea:active{
+    outline: none;
+    border: 5px green;
+}
+
+.button{
+    width: 200px;
+height: 50px;
+left: 140px;
+top: 2726px;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 30;
+/* identical to box height, or 187% */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+
+color: #000;
+
+background: #188CE8;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px
+
+
+}
+
+.button:hover,
+.button:focus{
+color: white;
+background-color: blue;
+outline: none;
+}
+
+
+
+
+.address-email-phone{
+    width: 232px;
+height: 21px;
+left: 124px;
+top: 2938px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+text-align: center;
+letter-spacing: 0.03em;
+color: white;
+margin-bottom: 15px;
+}
+
+footer{
+    background-color: gray;
+    width: 100%;
+    height: 200px;
+    padding-top: 30px;
+}
+
+.footer1000{
+    width: 250px;
+    margin: 0 auto;
+
+}
+
+.log{
+    
+width: 154px;
+height: 28px;
+left: 163px;
+top: 2890px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 28px;
+text-align: center;
+letter-spacing: 0.03em;
+
+
+
+}
+
+.acent{
+
+    color: var(--acent-color); 
+
+}
